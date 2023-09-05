@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  HackerNews
+//
+//  Created by Ahmad Qureshi on 09/12/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+slash = /
+kBaseUrl = https:/$(slash)demo-production.com

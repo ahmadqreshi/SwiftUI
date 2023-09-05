@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133149EC2A7BC80D008284AE /* LAFormsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133149EB2A7BC80D008284AE /* LAFormsApp.swift */; };
+		133149EE2A7BC80D008284AE /* LAFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133149ED2A7BC80D008284AE /* LAFormsView.swift */; };
+		133149F02A7BC80E008284AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133149EF2A7BC80E008284AE /* Assets.xcassets */; };
+		133149F32A7BC80E008284AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133149F22A7BC80E008284AE /* Preview Assets.xcassets */; };
+		133149FC2A7BC8B1008284AE /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133149FB2A7BC8B1008284AE /* Colors+Extension.swift */; };
+		133149FF2A7CD8E1008284AE /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133149FE2A7CD8E1008284AE /* View+Extension.swift */; };
+		13314A032A7CDB7A008284AE /* PrimeTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A022A7CDB7A008284AE /* PrimeTextFieldView.swift */; };
+		13314A052A7CF4FB008284AE /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A042A7CF4FB008284AE /* DropDownView.swift */; };
+		13314A072A7D03B0008284AE /* DropDownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A062A7D03B0008284AE /* DropDownMenuList.swift */; };
+		13314A092A80CFA6008284AE /* NameQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A082A80CFA6008284AE /* NameQuestionView.swift */; };
+		13314A0B2A80E9EC008284AE /* FormsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A0A2A80E9EC008284AE /* FormsViewModel.swift */; };
+		13314A0D2A80EA17008284AE /* PhoneQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A0C2A80EA17008284AE /* PhoneQuestionView.swift */; };
+		13314A0F2A80EC9B008284AE /* EmailQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A0E2A80EC9B008284AE /* EmailQuestionView.swift */; };
+		13314A112A80F017008284AE /* TextQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A102A80F017008284AE /* TextQuestionView.swift */; };
+		13314A132A80F1E7008284AE /* McqQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A122A80F1E7008284AE /* McqQuestionView.swift */; };
+		13314A152A80F6E7008284AE /* FormsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A142A80F6E7008284AE /* FormsModel.swift */; };
+		13314A1B2A80F8D8008284AE /* forms.json in Resources */ = {isa = PBXBuildFile; fileRef = 13314A1A2A80F8D8008284AE /* forms.json */; };
+		13314A1D2A80F908008284AE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13314A1C2A80F908008284AE /* Utility.swift */; };
+		13BC22762AA706D70043B506 /* SlotDropDownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BC22752AA706D70043B506 /* SlotDropDownMenuList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		133149E82A7BC80D008284AE /* LAForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133149EB2A7BC80D008284AE /* LAFormsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAFormsApp.swift; sourceTree = "<group>"; };
+		133149ED2A7BC80D008284AE /* LAFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAFormsView.swift; sourceTree = "<group>"; };
+		133149EF2A7BC80E008284AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133149F22A7BC80E008284AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		133149FB2A7BC8B1008284AE /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		133149FE2A7CD8E1008284AE /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		13314A022A7CDB7A008284AE /* PrimeTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTextFieldView.swift; sourceTree = "<group>"; };
+		13314A042A7CF4FB008284AE /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		13314A062A7D03B0008284AE /* DropDownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuList.swift; sourceTree = "<group>"; };
+		13314A082A80CFA6008284AE /* NameQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameQuestionView.swift; sourceTree = "<group>"; };
+		13314A0A2A80E9EC008284AE /* FormsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsViewModel.swift; sourceTree = "<group>"; };
+		13314A0C2A80EA17008284AE /* PhoneQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneQuestionView.swift; sourceTree = "<group>"; };
+		13314A0E2A80EC9B008284AE /* EmailQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailQuestionView.swift; sourceTree = "<group>"; };
+		13314A102A80F017008284AE /* TextQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextQuestionView.swift; sourceTree = "<group>"; };
+		13314A122A80F1E7008284AE /* McqQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McqQuestionView.swift; sourceTree = "<group>"; };
+		13314A142A80F6E7008284AE /* FormsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsModel.swift; sourceTree = "<group>"; };
+		13314A1A2A80F8D8008284AE /* forms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forms.json; sourceTree = "<group>"; };
+		13314A1C2A80F908008284AE /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		13BC22752AA706D70043B506 /* SlotDropDownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotDropDownMenuList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133149E52A7BC80D008284AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133149DF2A7BC80D008284AE = {
+			isa = PBXGroup;
+			children = (
+				133149EA2A7BC80D008284AE /* LAForms */,
+				133149E92A7BC80D008284AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133149E92A7BC80D008284AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133149E82A7BC80D008284AE /* LAForms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133149EA2A7BC80D008284AE /* LAForms */ = {
+			isa = PBXGroup;
+			children = (
+				133149FA2A7BC893008284AE /* AppController */,
+				13314A1E2A80F90C008284AE /* Utilities */,
+				133149F92A7BC88C008284AE /* Modules */,
+				133149FD2A7BC8BA008284AE /* Extensions */,
+				13314A1A2A80F8D8008284AE /* forms.json */,
+				133149EF2A7BC80E008284AE /* Assets.xcassets */,
+				133149F12A7BC80E008284AE /* Preview Content */,
+			);
+			path = LAForms;
+			sourceTree = "<group>";
+		};
+		133149F12A7BC80E008284AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				133149F22A7BC80E008284AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		133149F92A7BC88C008284AE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				13314A192A80F73D008284AE /* ViewModel */,
+				13314A172A80F712008284AE /* View */,
+				13314A162A80F6F3008284AE /* Model */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		133149FA2A7BC893008284AE /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				133149EB2A7BC80D008284AE /* LAFormsApp.swift */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		133149FD2A7BC8BA008284AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				133149FB2A7BC8B1008284AE /* Colors+Extension.swift */,
+				133149FE2A7CD8E1008284AE /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13314A162A80F6F3008284AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13314A142A80F6E7008284AE /* FormsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13314A172A80F712008284AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				133149ED2A7BC80D008284AE /* LAFormsView.swift */,
+				13314A022A7CDB7A008284AE /* PrimeTextFieldView.swift */,
+				13314A082A80CFA6008284AE /* NameQuestionView.swift */,
+				13314A0C2A80EA17008284AE /* PhoneQuestionView.swift */,
+				13314A122A80F1E7008284AE /* McqQuestionView.swift */,
+				13314A0E2A80EC9B008284AE /* EmailQuestionView.swift */,
+				13314A102A80F017008284AE /* TextQuestionView.swift */,
+				13314A182A80F720008284AE /* DropDown */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13314A182A80F720008284AE /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				13314A042A7CF4FB008284AE /* DropDownView.swift */,
+				13314A062A7D03B0008284AE /* DropDownMenuList.swift */,
+				13BC22752AA706D70043B506 /* SlotDropDownMenuList.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		13314A192A80F73D008284AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13314A0A2A80E9EC008284AE /* FormsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13314A1E2A80F90C008284AE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				13314A1C2A80F908008284AE /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133149E72A7BC80D008284AE /* LAForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133149F62A7BC80E008284AE /* Build configuration list for PBXNativeTarget "LAForms" */;
+			buildPhases = (
+				133149E42A7BC80D008284AE /* Sources */,
+				133149E52A7BC80D008284AE /* Frameworks */,
+				133149E62A7BC80D008284AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAForms;
+			productName = LAForms;
+			productReference = 133149E82A7BC80D008284AE /* LAForms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133149E02A7BC80D008284AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					133149E72A7BC80D008284AE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 133149E32A7BC80D008284AE /* Build configuration list for PBXProject "LAForms" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133149DF2A7BC80D008284AE;
+			productRefGroup = 133149E92A7BC80D008284AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133149E72A7BC80D008284AE /* LAForms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133149E62A7BC80D008284AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133149F32A7BC80E008284AE /* Preview Assets.xcassets in Resources */,
+				133149F02A7BC80E008284AE /* Assets.xcassets in Resources */,
+				13314A1B2A80F8D8008284AE /* forms.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133149E42A7BC80D008284AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13314A0F2A80EC9B008284AE /* EmailQuestionView.swift in Sources */,
+				13314A152A80F6E7008284AE /* FormsModel.swift in Sources */,
+				133149FC2A7BC8B1008284AE /* Colors+Extension.swift in Sources */,
+				13314A032A7CDB7A008284AE /* PrimeTextFieldView.swift in Sources */,
+				133149EE2A7BC80D008284AE /* LAFormsView.swift in Sources */,
+				13314A1D2A80F908008284AE /* Utility.swift in Sources */,
+				13314A0D2A80EA17008284AE /* PhoneQuestionView.swift in Sources */,
+				133149FF2A7CD8E1008284AE /* View+Extension.swift in Sources */,
+				13314A072A7D03B0008284AE /* DropDownMenuList.swift in Sources */,
+				13314A092A80CFA6008284AE /* NameQuestionView.swift in Sources */,
+				13BC22762AA706D70043B506 /* SlotDropDownMenuList.swift in Sources */,
+				13314A0B2A80E9EC008284AE /* FormsViewModel.swift in Sources */,
+				13314A112A80F017008284AE /* TextQuestionView.swift in Sources */,
+				13314A052A7CF4FB008284AE /* DropDownView.swift in Sources */,
+				13314A132A80F1E7008284AE /* McqQuestionView.swift in Sources */,
+				133149EC2A7BC80D008284AE /* LAFormsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		133149F42A7BC80E008284AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		133149F52A7BC80E008284AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133149F72A7BC80E008284AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LAForms/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnapp.com.LAForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133149F82A7BC80E008284AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LAForms/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learnapp.com.LAForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133149E32A7BC80D008284AE /* Build configuration list for PBXProject "LAForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133149F42A7BC80E008284AE /* Debug */,
+				133149F52A7BC80E008284AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133149F62A7BC80E008284AE /* Build configuration list for PBXNativeTarget "LAForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133149F72A7BC80E008284AE /* Debug */,
+				133149F82A7BC80E008284AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133149E02A7BC80D008284AE /* Project object */;
+}

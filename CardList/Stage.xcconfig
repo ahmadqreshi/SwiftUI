@@ -1,0 +1,11 @@
+//
+//  Stage.xcconfig
+//  CardList
+//
+//  Created by Ahmad Qureshi on 19/01/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+server_url = www.learnapp.stag
+lottieName = stagLottie

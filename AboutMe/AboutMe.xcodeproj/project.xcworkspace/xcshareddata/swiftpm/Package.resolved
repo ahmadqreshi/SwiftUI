@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "laresources",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ahmadqreshi/LAResources",
+      "state" : {
+        "branch" : "main",
+        "revision" : "475e99caad621ce5c3e30805664911a1dbe71bc3"
+      }
+    }
+  ],
+  "version" : 2
+}

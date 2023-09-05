@@ -1,0 +1,20 @@
+PODS:
+  - Protobuf (3.21.9)
+  - RecaptchaEnterprise (18.0.2):
+    - Protobuf (~> 3.21.3)
+
+DEPENDENCIES:
+  - RecaptchaEnterprise
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+    - RecaptchaEnterprise
+
+SPEC CHECKSUMS:
+  Protobuf: 02524ec14183fe08fb259741659e79683788158b
+  RecaptchaEnterprise: 08e654780b13e928b3c9de441d4f5a1b60e45513
+
+PODFILE CHECKSUM: a38d8c0403668213dc8bcf883f563538c07da7a1
+
+COCOAPODS: 1.11.3

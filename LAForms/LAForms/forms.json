@@ -1,0 +1,219 @@
+{
+    "formId": "a2331fe8-fdad-4c74-8edd-4719b1402860",
+    "utmEnabled": true,
+    "title": "LearnApp Prime",
+    "description": "Introducing an exclusive 2 days program where we will help you kickstart your trading journey and help you trade systematically.<br><br>Money can’t get you inside the program. The program is absolutely free but only 40% gets selected!<br>",
+    "isActive": true,
+    "questions": [
+        {
+            "questionId": "3279e54a-59d2-4bd8-a93b-b5fdd969ce4c",
+            "questionText": "Full Name",
+            "type": "name",
+            "isRequired": true
+        },
+        {
+            "questionId": "843676a2-6e6d-4ae2-a611-493fd35cca79",
+            "questionText": "Email Address",
+            "type": "email",
+            "isRequired": true
+        },
+        {
+            "questionId": "7955a7a5-0b77-49db-accf-f81b31321075",
+            "questionText": "Phone Number",
+            "type": "phone",
+            "isRequired": true,
+            "description": "Enter your 10 digit Whatsapp number",
+            "placeholder": ""
+        },
+        {
+            "questionId": "37b587d6-03e9-4e0e-b929-b8d3c0badd69",
+            "questionText": "How frequently do you trade?",
+            "type": "mcq",
+            "isRequired": true,
+            "options": [
+                "Never traded before",
+                "I trade occasionally without following a system",
+                "I prefer swing/positional trading",
+                "I trade everyday"
+            ],
+            "hasOther": true
+        },
+        {
+            "questionId": "bd0f3de0-6174-4b58-83ae-f41ff4c67491",
+            "questionText": "How long have you been trading?",
+            "type": "mcq",
+            "isRequired": true,
+            "options": [
+                "Less than 6 months",
+                "6-12 months",
+                "1-2 Years",
+                "2+ Years"
+            ],
+            "hasOther": true
+        },
+        {
+            "questionId": "e3b1f5ff-9b23-42c4-a6e5-71b7ef618030",
+            "questionText": "What is your biggest challenge?",
+            "type": "mcq",
+            "isRequired": true,
+            "options": [
+                "Not able to decide how to start trading",
+                "Not able to understand the stock market jargons & charts",
+                "Not able to find the right trading system",
+                "Not able to find right stocks for my system",
+                "Following a system but facing losses"
+            ],
+            "hasOther": true
+        },
+        {
+            "questionId": "288aad6e-c52b-460b-98f5-65f42b775c95",
+            "questionText": "What is your current profession?",
+            "type": "text",
+            "isRequired": true
+        },
+        {
+            "questionId": "f1a78259-4446-4b26-8ad6-c3a598edf665",
+            "questionText": "What do you want to achieve from LearnApp Prime?",
+            "type": "text",
+            "isRequired": true
+        },
+        {
+            "questionId": "05317696-4dc5-4ef4-bf22-709fa7e43900",
+            "questionText": "Why should we choose you?",
+            "type": "text",
+            "isRequired": true
+        },
+        {
+            "questionId": "8ec9ea73-c9c3-46b8-b4d9-822bffb18ab4",
+            "questionText": "If selected, which time slot would you prefer?",
+            "type": "slot",
+            "isRequired": true,
+            "description": "",
+            "placeholder": "",
+            "slots": [
+                {
+                    "timingText": "09 AM - 11 AM (Sat-Sun | 12th-13th Aug'23)",
+                    "slotId": "214dd6db-b8b6-4ac4-b4d2-cfe0a6aa91cb"
+                },
+                {
+                    "timingText": "10 AM - 12 PM (Sat-Sun | 12th-13th Aug'23)",
+                    "slotId": "23b5be21-2961-4943-9638-fab1a07a0c34"
+                }
+            ]
+        },
+        {
+            "questionId": "6806c53e-e8f0-46e3-a581-d1ab35f116f0",
+            "questionText": "Are you already a LearnApp Subscriber?",
+            "type": "mcq",
+            "isRequired": true,
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "description": "Select \"Yes\" if you are already a paid LearnApp subscriber"
+        },
+        {
+            "questionId": "e98a0aae-a5ec-4766-9a1d-2fee14d0666c",
+            "questionText": "How did you come to know about LearnApp?",
+            "type": "mcq",
+            "isRequired": true,
+            "options": [
+                "Ads",
+                "Social Media (Instagram, Twitter, Linkedin)",
+                "Youtube Channel",
+                "Through a Friend",
+                "Corporate Workshop"
+            ],
+            "hasOther": true,
+            "description": "",
+            "placeholder": ""
+        },
+        {
+            "questionId": "0ca6de32-d225-4745-8c09-2cfe3f6dec43",
+            "questionText": "Want to refer a friend?",
+            "type": "text",
+            "isRequired": false,
+            "description": "Share the name, email id, and phone number of a friend that you would want to refer",
+            "placeholder": "name, email id, phone number"
+        },
+        {
+            "questionId": "53145c30-cc2e-4d9c-8961-e4f35894e340",
+            "questionText": "Have a referral passcode?",
+            "type": "text",
+            "isRequired": false,
+            "description": "If you have a referral passcode, please enter here to get assured seat"
+        },
+        {
+            "questionId": "c48cd4a4-4640-4fa1-bfd8-30f6f2715d5c",
+            "questionText": "utm_id",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "943826fe-dcda-44bd-8e72-02028fcaceba",
+            "questionText": "utm_source",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "86d3dc93-5445-4a48-b4cf-f614d6db5b75",
+            "questionText": "utm_medium",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "0ebc66b9-b6ae-48ad-8cbb-c43317428ee1",
+            "questionText": "utm_campaign",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "45c83481-a10f-48f9-aa72-5d965de1f691",
+            "questionText": "utm_term",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "f0b55ae8-7079-4355-b762-70c65ac7bd87",
+            "questionText": "utm_content",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "c48cd4a4-4640-4fa1-bfd8-30f6f2715d5c",
+            "questionText": "utm_id",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "943826fe-dcda-44bd-8e72-02028fcaceba",
+            "questionText": "utm_source",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "86d3dc93-5445-4a48-b4cf-f614d6db5b75",
+            "questionText": "utm_medium",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "0ebc66b9-b6ae-48ad-8cbb-c43317428ee1",
+            "questionText": "utm_campaign",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "45c83481-a10f-48f9-aa72-5d965de1f691",
+            "questionText": "utm_term",
+            "type": "utm",
+            "isRequired": false
+        },
+        {
+            "questionId": "f0b55ae8-7079-4355-b762-70c65ac7bd87",
+            "questionText": "utm_content",
+            "type": "utm",
+            "isRequired": false
+        }
+    ]
+}

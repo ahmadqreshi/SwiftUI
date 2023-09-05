@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "learnapp-ios-resources",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/learnapp-co/learnapp-ios-resources",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d08ff8f9d75134df43b3d75f4ea064797d724426"
+      }
+    }
+  ],
+  "version" : 2
+}
